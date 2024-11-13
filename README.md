@@ -21,6 +21,8 @@ Check out the Project [Constraint File](../src/NES_TN9.cst), but if you won't bu
 |27|D19|DATA|
 |28|D34|ATTENTION|
 
+*I personally recommend adding some terminating resistors (from 50 to 120 ohms) in these wires to avoid reflections.
+
 ## ROM Flashing
 
 Just binary write the NES rom (in [iNES](https://www.nesdev.org/wiki/INES) format) into the microSD card in raw data.
